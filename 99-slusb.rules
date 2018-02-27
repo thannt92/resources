@@ -1,0 +1,7 @@
+SUBSYSTEM=="usb",ATTRS{idVendor}=="0451",ATTRS{idProduct}=="c31a",MODE:="0666",SYMLINK+="LORA",NAME="lr"
+SUBSYSTEM=="usb",ATTRS{idVendor}=="0451",ATTRS{idProduct}=="c32a",MODE:="0666",SYMLINK+="LORA",NAME="lr"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="00492F60", SYMLINK+="ttySLAB0"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="0001", ATTRS{product}=="CP2102 USB to UART Bridge Controller", SYMLINK+="loraUSBstick"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="0002", ATTRS{product}=="RF24_USB_STICK", SYMLINK+="usb_stick_rf24"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{serial}=="AL02VZ2A", ATTRS{product}=="FT232R USB UART", SYMLINK+="ac_mod_com"
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", ATTRS{serial}=="0001", ATTRS{product}=="CURRENT_CHART_COM", SYMLINK+="current_chart_com"
